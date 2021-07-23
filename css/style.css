@@ -107,3 +107,40 @@ h1 {
     width: 95%;
 }
 
+.socials {
+    position: fixed;
+    right: 0;
+    top: 260px;
+    text-align: center;
+
+}
+
+.socials a {
+    left: 0;
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: #850409;
+    text-decoration: none;
+    transition: .2s ;
+}
+
+.socials a:last-of-type {
+    background-color: #98161b;
+}
+
+.socials a i {
+    font-size: 33px;
+    color: #fff;
+    line-height: 50px;
+}
+
+.socials a:hover {
+    transform: translateX(-30%);
+    background-color: #d92128;
+}
+
+footer {
+    height: 453px;
+    background-color: #000;
+}
