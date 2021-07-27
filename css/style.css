@@ -10,7 +10,10 @@ img  {
 }
 
 body {
+    background-image: url("../img/bg.jpg");
     background-color: #3f0002;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .container {
@@ -47,7 +50,7 @@ section .logo {
 
 .item {
     max-width: 710px;
-    margin-left: 135px;
+    margin: auto;
     background-color: #fff;
 }
 
